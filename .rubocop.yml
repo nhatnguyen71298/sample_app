@@ -11,7 +11,6 @@ inherit_from:
 
 # Common configuration.
 AllCops:
-  NewCops: enable
   # Include gemspec and Rakefile
   Include:
     - 'app/**/*'
@@ -41,7 +40,7 @@ Layout/AccessModifierIndentation:
     - indent
 
 # Align the elements of a hash literal if they span more than one line.
-Layout/HashAlignment:
+Layout/AlignHash:
   # Alignment of entries using hash rocket as separator. Valid values are:
   #
   # key - left alignment of keys
@@ -104,7 +103,7 @@ Layout/HashAlignment:
     - ignore_implicit
     - ignore_explicit
 
-Layout/ParameterAlignment:
+Layout/AlignParameters:
   # Alignment of parameters in multi-line method calls.
   #
   # The `with_first_parameter` style aligns the following lines along the same column
@@ -131,11 +130,11 @@ Metrics/AbcSize:
   # a Float.
   Max: 20
 
-# Style/BracesAroundHashParameters:
-#   EnforcedStyle: no_braces
-#   SupportedStyles:
-#     - braces
-#     - no_braces
+Style/BracesAroundHashParameters:
+  EnforcedStyle: no_braces
+  SupportedStyles:
+    - braces
+    - no_braces
 
 # Indentation of `when`.
 Layout/CaseIndentation:
@@ -269,7 +268,7 @@ Style/HashSyntax:
     - hash_rockets
 
 # Checks the indentation of the first key in a hash literal.
-Layout/FirstHashElementIndentation:
+Layout/IndentFirstHashElement:
   # The value `special_inside_parentheses` means that hash literals with braces
   # that have their opening brace on the same line as a surrounding opening
   # round parenthesis, shall have their first key indented relative to the
@@ -288,7 +287,7 @@ Style/LambdaCall:
     - call
     - braces
 
-Layout/LineLength:
+Metrics/LineLength:
   Max: 80
   AllowURI: true
   Exclude:
@@ -303,7 +302,6 @@ Style/Next:
   SupportedStyles:
     - skip_modifier_ifs
     - always
-
 
 Style/NonNilCheck:
   # With `IncludeSemanticChanges` set to `true`, this cop reports offenses for
@@ -354,7 +352,7 @@ Style/PercentLiteralDelimiters:
     '%x': ()
 
 Naming/PredicateName:
-  ForbiddenPrefixes:
+  NamePrefixBlacklist:
     - get_
 
 Style/RaiseArgs:
@@ -432,7 +430,7 @@ Layout/SpaceInsideHashLiteralBraces:
     - space
     - no_space
 
-Layout/TrailingEmptyLines:
+Layout/TrailingBlankLines:
   EnforcedStyle: final_newline
   SupportedStyles:
     - final_newline
@@ -485,7 +483,7 @@ Style/TrivialAccessors:
   #
   # Commonly used in DSLs
   AllowDSLWriters: false
-  AllowedMethods:
+  Whitelist:
     - to_ary
     - to_a
     - to_c
