@@ -3,9 +3,22 @@ require "test_helper"
 class StaticPagesControllerTest < ActionDispatch::IntegrationTest
 
   def setup
-    @base_title = "Ruby on Rails Tutorial Sample App"
+    case I18n.locale
+    when "en"
+      # @base_about = "About"
+      # @base_home = "Home"
+      # @base_contact = "Contact"
+      # @base_help = "Help"
+      @base_title = "Ruby on Rails Tutorial Sample App"
+    end
+    when "vi"
+      # @base_about = "Giới "
+      # @base_home = "Home"
+      # @base_contact = "Contact"
+      # @base_help = "Help"
+      @base_title = "Ruby on Rails Tutorial Ứng dụng mẫu"
+    end
   end
-
   # test "should get root" do
   # get FILL_IN
   # assert_response FILL_IN
