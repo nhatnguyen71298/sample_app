@@ -3,21 +3,7 @@ require "test_helper"
 class StaticPagesControllerTest < ActionDispatch::IntegrationTest
 
   def setup
-    case I18n.locale
-    when "en"
-      # @base_about = "About"
-      # @base_home = "Home"
-      # @base_contact = "Contact"
-      # @base_help = "Help"
-      @base_title = "Ruby on Rails Tutorial Sample App"
-    end
-    when "vi"
-      # @base_about = "Giới "
-      # @base_home = "Home"
-      # @base_contact = "Contact"
-      # @base_help = "Help"
-      @base_title = "Ruby on Rails Tutorial Ứng dụng mẫu"
-    end
+    @base_title = "Ruby on Rails Tutorial Ứng dụng mẫu"
   end
   # test "should get root" do
   # get FILL_IN
@@ -28,8 +14,8 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     get static_pages_about_url
     assert_response :success
     assert_select "title", "About | #{@base_title}"
-
   end
+
   test "should get home" do
     get static_pages_home_url
     assert_response :success
