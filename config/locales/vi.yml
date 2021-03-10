@@ -1,0 +1,15 @@
+vi:
+  static_pages:
+    home:
+      title: "Trang chủ"
+      home_title: "Chào mừng tới Sample App"
+      home_message: "Đây là trang chủ của Sample App"
+      button: "Đăng nhập ngay"
+    help:
+      help_title: "Trợ giúp"
+      help_message: "Tìm kiếm thêm thông tin Ruby on Rails Tutorial tại Rails Tutorial Help page"
+  layouts:
+    header:
+      name_app: "Ứng dụng mẫu"
+      en: "Anh"
+      vi: "Việt"
