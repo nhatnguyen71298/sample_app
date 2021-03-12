@@ -1,4 +1,8 @@
 en:
+  warning:
+    find_by_id: "The user could not be found"
+    session_error: "Invalid email/password combination"
+    log_in_succes: "Hello %{user_name}"
   static_pages:
     home:
       title: "Home"
@@ -13,6 +17,11 @@ en:
       name_app: "Sample app"
       en: "English"
       vi: "Vietnamese"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      log_out: "Log out"
   users:
     new:
       title: "Sign up"
@@ -24,3 +33,8 @@ en:
   shared:
     error_messages:
       error: "The form contains %{number_error} error"
+  sessions:
+    new:
+      title: "Log in"
+      question: "New user?"
+      path: "Sign up now"

@@ -1,4 +1,8 @@
 vi:
+  warning:
+    find_by_id: "Không thể tìm thấy người dùng"
+    session_error: "Sai tên đăng nhập/mật khẩu"
+    log_in_succes: "Xin chào %{user_name}"
   static_pages:
     home:
       title: "Trang chủ"
@@ -13,6 +17,11 @@ vi:
       name_app: "Ứng dụng mẫu"
       en: "Anh"
       vi: "Việt"
+      users: "Bạn bè"
+      account: "Tài khoản"
+      profile: "Thông tin"
+      settings: "Cài đặt"
+      log_out: "Đăng xuất"
   users:
     new:
       title: "Đăng kí"
@@ -24,3 +33,8 @@ vi:
   shared:
     error_messages:
       error: "Phát hiện %{number_error} lỗi"
+  sessions:
+    new:
+      title: "Đăng nhập"
+      question: "Bạn chưa có tài khoản?"
+      path: "Đăng kí ngay"
