@@ -13,14 +13,3 @@ vi:
       name_app: "Ứng dụng mẫu"
       en: "Anh"
       vi: "Việt"
-  users:
-    new:
-      title: "Đăng kí"
-      label_name: "Tên: "
-      label_email: "Email: "
-      label_password: "Mật khẩu: "
-      label_password_confirm: "Xác nhận mật khẩu:"
-      button: "Tạo tài khoản"
-  shared:
-    error_messages:
-      error: "Phát hiện %{number_error} lỗi"
