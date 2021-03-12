@@ -13,3 +13,14 @@ en:
       name_app: "Sample app"
       en: "English"
       vi: "Vietnamese"
+  users:
+    new:
+      title: "Sign up"
+      label_name: "Name: "
+      label_email: "Email: "
+      label_password: "Password: "
+      label_password_confirm: "Confirmation:"
+      button: "Create my accout"
+  shared:
+    error_messages:
+      error: "The form contains %{number_error} error"
