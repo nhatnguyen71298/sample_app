@@ -3,6 +3,11 @@ vi:
     find_by_id: "Không thể tìm thấy người dùng"
     session_error: "Sai tên đăng nhập/mật khẩu"
     log_in_succes: "Xin chào %{user_name}"
+    edit_succes: "Đã thay đổi thông tin cá nhân"
+    delete_succes: "Đã xóa tài khoản %{user_name}"
+    delete_error: "Đã xãy ra lỗi !"
+    please_login: "Hãy đăng nhập trước !"
+    all_user: "Không tìm thấy danh sách người dùng"
   static_pages:
     home:
       title: "Trang chủ"
@@ -25,11 +30,21 @@ vi:
   users:
     new:
       title: "Đăng kí"
+      button: "Tạo tài khoản"
+    edit:
+      title: "Chỉnh sửa"
+      button: "Lưu thay đổi"
+      avatar: "Đổi ảnh đại diện"
+    index:
+      title: "Bạn bè"
+    user:
+      delete: "Xóa"
+      confirm_delete: "Bạn có chắc chắn?"
+    form:
       label_name: "Tên: "
       label_email: "Email: "
       label_password: "Mật khẩu: "
       label_password_confirm: "Xác nhận mật khẩu:"
-      button: "Tạo tài khoản"
   shared:
     error_messages:
       error: "Phát hiện %{number_error} lỗi"
@@ -39,3 +54,5 @@ vi:
       question: "Bạn chưa có tài khoản?"
       path: "Đăng kí ngay"
       cookies: "Duy trì đăng nhập?"
+      label_email: "Email: "
+      label_password: "Mật khẩu: "

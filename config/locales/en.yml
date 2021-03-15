@@ -3,6 +3,11 @@ en:
     find_by_id: "The user could not be found"
     session_error: "Invalid email/password combination"
     log_in_succes: "Hello %{user_name}"
+    edit_succes: "Profile updated"
+    delete_succes: "Deleted account %{user_name}"
+    delete_error: "Delete fail!"
+    please_login: "Please login!"
+    all_user: "List account could not found!"
   static_pages:
     home:
       title: "Home"
@@ -25,11 +30,21 @@ en:
   users:
     new:
       title: "Sign up"
+      button: "Create my accout"
+    edit:
+      title: "Update your profile"
+      button: "Save changes"
+      avatar: "Change avatar"
+    index:
+      title: "All users"
+    user:
+      delete: "Delete"
+      confirm_delete: "You sure?"
+    form:
       label_name: "Name: "
       label_email: "Email: "
       label_password: "Password: "
       label_password_confirm: "Confirmation:"
-      button: "Create my accout"
   shared:
     error_messages:
       error: "The form contains %{number_error} error"
@@ -39,3 +54,5 @@ en:
       question: "New user?"
       path: "Sign up now"
       cookies: "Remember me?"
+      label_email: "Email: "
+      label_password: "Password: "
