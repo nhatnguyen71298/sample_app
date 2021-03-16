@@ -13,6 +13,10 @@ vi:
     activated: "Tài khoản đã được kích hoạt!"
     invaild_activated: "Đường dẫn sai."
     subject_activated: "Kích hoạt tài khoản"
+    send_email: "Kiểm tra mail để lấy lại mật khẩu."
+    password_require: "Mật khẩu không được để trống."
+    change_password_success: "Đổi mật khẩu thành công. Hãy đăng nhập lại."
+    password_expired: "Bạn vừa yêu cầu lấy lại mật khẩu, hãy thử lại sau"
   static_pages:
     home:
       title: "Trang chủ"
@@ -61,8 +65,25 @@ vi:
       cookies: "Duy trì đăng nhập?"
       label_email: "Email: "
       label_password: "Mật khẩu: "
+      forgot_password: "(Quên mật khẩu?)"
   email_active:
     title: "Ứng dụng mẫu"
     hi: "Xin chào %{name}"
     content: "Bạn đã đăng ký tài khoản với ứng dụng của chúng tôi, click vào đây để kích hoạt tài khoản: "
     activave: "Kích hoạt"
+  password_resets:
+    new:
+      label_name: "Email: "
+      title: "Quên mật khẩu"
+      button: "Gửi biểu mẫu"
+    edit:
+      title: "Lấy lại mật khẩu"
+      label_password: "Mật khẩu: "
+      label_password_confirm: "Xác nhận mật khẩu:"
+      button: "Xác nhận"
+  email_reset_password:
+    title: "Lấy lại mật khẩu"
+    active: "Lấy lại mật khẩu"
+    content1: "Click vào đường dẫn dưới đây để đặt mật khẩu mới:"
+    content2: "Dường dẫn này có hiệu lực trong 2 giờ.<br>
+        Nếu bạn không thực hiện trong thời hạn hãy thử lại."
