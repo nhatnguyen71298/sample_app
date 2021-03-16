@@ -9,7 +9,7 @@ en:
     please_login: "Please login!"
     all_user: "List account could not found!"
     please_check_mail: "Please check your email to activate your account."
-    please_activaved: "Account not activated. Check your email for the activation link."
+    please_activaved: "Account not activated. Check your email for the activation link"
     activated: "Account activated!"
     invaild_activated: "Invalid activation link"
     subject_activated: "Account activation"
@@ -17,12 +17,21 @@ en:
     password_require: "Password not required."
     change_password_success: "Your password have changed. Please log in"
     password_expired: "Password reset has expired."
+    created_micropost: "Micropost created!"
+    delete_micropost: "Micropost deleted"
+    invaild_micropost: "Micropost invalid"
+    img_over_size: "should be less than 5MB"
+    img_wrong_type: "must be a valid image format"
+  microposts:
+    micropost:
+      posted: "Posted %{time} ago"
   static_pages:
     home:
       title: "Home"
       home_title: "Welcome to the Sample App"
       home_message: "This is the home page of my Sample App"
       button: "Sign up now"
+      title_micropost: "Micropost Feed"
     help:
       help_title: "Help"
       help_message: "Get help on the Ruby on Rails Tutorial at the Rails Tutorial help page"
@@ -36,7 +45,11 @@ en:
       profile: "Profile"
       settings: "Settings"
       log_out: "Log out"
+      home: "Home"
+      help: "Help"
   users:
+    show:
+      title: "Microposts (%{count})"
     new:
       title: "Sign up"
       button: "Create my accout"
@@ -57,6 +70,11 @@ en:
   shared:
     error_messages:
       error: "The form contains %{number_error} error"
+    micropost_form:
+      palaceholder: "Compose new micropost..."
+      button: "Post"
+    user_info:
+      view_profile: "view my profile"
   sessions:
     new:
       title: "Log in"
