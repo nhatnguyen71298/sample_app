@@ -11,7 +11,7 @@ class SessionsController < ApplicationController
       flash[:success] = t("warning.log_in_succes", user_name: @user.name)
       log_in @user
       params[:sessions][:remember_me] == "1" ? remember(@user) : forget(@user)
-      redirect_to @user
+      redirect_back_or @user
     else
       flash[:danger] = t "warning.session_error"
       render :new

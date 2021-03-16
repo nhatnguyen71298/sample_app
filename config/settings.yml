@@ -6,3 +6,9 @@ user:
     regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   password:
     min_length: 6
+  allow_nil: true
+paginate:
+  per_page: 5
+avatar:
+  size_users: 50
+  size_show: 80
