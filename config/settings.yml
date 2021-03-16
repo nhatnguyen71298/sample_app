@@ -12,6 +12,7 @@ paginate:
 avatar:
   size_users: 50
   size_show: 80
+  size_following: 30
 password_reset:
   expired: 2
 micropost:

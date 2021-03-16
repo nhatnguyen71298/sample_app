@@ -22,6 +22,7 @@ vi:
     invaild_micropost: "Không phải bài đăng của bạn"
     img_over_size: "dung lương không quá 5MB"
     img_wrong_type: "ảnh không hợp lệ"
+    load_relationship: "Không thể bỏ theo dõi"
   microposts:
     micropost:
       posted: "Đã đăng %{time} trước"
@@ -67,6 +68,10 @@ vi:
       label_email: "Email: "
       label_password: "Mật khẩu: "
       label_password_confirm: "Xác nhận mật khẩu:"
+    unfollow:
+      button: "Bỏ theo dõi"
+    follow:
+      button: "Theo dõi"
   shared:
     error_messages:
       error: "Phát hiện %{number_error} lỗi"
@@ -75,6 +80,9 @@ vi:
       button: "Đăng"
     user_infor:
       view_profile: "xem trang cá nhân"
+    stats:
+      following: "Đang theo dõi"
+      followed: "Người theo dõi"
   sessions:
     new:
       title: "Đăng nhập"

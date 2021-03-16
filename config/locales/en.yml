@@ -22,6 +22,7 @@ en:
     invaild_micropost: "Micropost invalid"
     img_over_size: "should be less than 5MB"
     img_wrong_type: "must be a valid image format"
+    load_relationship: "Can not find user"
   microposts:
     micropost:
       posted: "Posted %{time} ago"
@@ -67,6 +68,10 @@ en:
       label_email: "Email: "
       label_password: "Password: "
       label_password_confirm: "Confirmation:"
+    unfollow:
+      button: "Unfollow"
+    follow:
+      button: "Follow"
   shared:
     error_messages:
       error: "The form contains %{number_error} error"
@@ -75,6 +80,9 @@ en:
       button: "Post"
     user_info:
       view_profile: "view my profile"
+    stats:
+      following: "Following"
+      followed: "Followed"
   sessions:
     new:
       title: "Log in"
