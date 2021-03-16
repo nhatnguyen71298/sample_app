@@ -8,6 +8,11 @@ vi:
     delete_error: "Đã xãy ra lỗi !"
     please_login: "Hãy đăng nhập trước !"
     all_user: "Không tìm thấy danh sách người dùng"
+    please_check_mail: "Kiểm tra email của bạn để kích hoạt tài khoản."
+    please_activaved: "Tài khoản chưa được kích hoạt. Kiểm tra email để kích hoạt"
+    activated: "Tài khoản đã được kích hoạt!"
+    invaild_activated: "Đường dẫn sai."
+    subject_activated: "Kích hoạt tài khoản"
   static_pages:
     home:
       title: "Trang chủ"
@@ -56,3 +61,8 @@ vi:
       cookies: "Duy trì đăng nhập?"
       label_email: "Email: "
       label_password: "Mật khẩu: "
+  email_active:
+    title: "Ứng dụng mẫu"
+    hi: "Xin chào %{name}"
+    content: "Bạn đã đăng ký tài khoản với ứng dụng của chúng tôi, click vào đây để kích hoạt tài khoản: "
+    activave: "Kích hoạt"
