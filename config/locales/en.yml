@@ -8,6 +8,11 @@ en:
     delete_error: "Delete fail!"
     please_login: "Please login!"
     all_user: "List account could not found!"
+    please_check_mail: "Please check your email to activate your account."
+    please_activaved: "Account not activated. Check your email for the activation link."
+    activated: "Account activated!"
+    invaild_activated: "Invalid activation link"
+    subject_activated: "Account activation"
   static_pages:
     home:
       title: "Home"
@@ -56,3 +61,9 @@ en:
       cookies: "Remember me?"
       label_email: "Email: "
       label_password: "Password: "
+  email_active:
+    title: "Sample app"
+    hi: "Hi %{name}"
+    content: "Welcome to the Sample App! Click on the link below to activate your
+      account: "
+    activave: "Activate"

@@ -1,0 +1,6 @@
+<h1><%= t "email_active.title" %></h1>
+<p><%= t("email_active.hi", name: @user.name ) %>,</p>
+<p><%= t "email_active.content" %></p>
+<%= link_to t("warning.subject_activated"),
+            edit_account_activation_url(id: @user.activation_token,
+                                        email: @user.email) %>
