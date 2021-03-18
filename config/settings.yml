@@ -12,3 +12,5 @@ paginate:
 avatar:
   size_users: 50
   size_show: 80
+password_reset:
+  expired: 2

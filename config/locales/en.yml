@@ -13,6 +13,10 @@ en:
     activated: "Account activated!"
     invaild_activated: "Invalid activation link"
     subject_activated: "Account activation"
+    send_email: "Email sent with password reset instructions."
+    password_require: "Password not required."
+    change_password_success: "Your password have changed. Please log in"
+    password_expired: "Password reset has expired."
   static_pages:
     home:
       title: "Home"
@@ -61,9 +65,27 @@ en:
       cookies: "Remember me?"
       label_email: "Email: "
       label_password: "Password: "
+      forgot_password: "(Forgot password?)"
   email_active:
     title: "Sample app"
     hi: "Hi %{name}"
     content: "Welcome to the Sample App! Click on the link below to activate your
       account: "
     activave: "Activate"
+  password_resets:
+    new:
+      label_name: "Name: "
+      title: "Forgot password"
+      button: "Submit"
+    edit:
+      title: "Reset password"
+      label_password: "Password: "
+      label_password_confirm: "Confirmation:"
+      button: "Update password"
+  email_reset_password:
+    title: "Password reset"
+    active: "Reset password"
+    content1: "To reset your password click the link below:"
+    content2: "This link will expire in two hours.<br>
+        If you did not request your password to be reset, please ignore this
+        email and your password will stay as it is."
