@@ -14,3 +14,12 @@ avatar:
   size_show: 80
 password_reset:
   expired: 2
+micropost:
+  content:
+    maximum: 140
+  image:
+    in:
+      - image/jpg
+      - image/gif
+      - image/png
+    accept: "image/jpeg,image/gif,image/png"

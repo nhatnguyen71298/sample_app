@@ -7,3 +7,6 @@ import "bootstrap"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+//= require i18n
+//= require i18n.js
+//= require i18n/translations
